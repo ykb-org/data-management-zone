@@ -3,7 +3,7 @@
     "view": {
         "kind": "Form",
         "properties": {
-            "title": "Cloud-Scale Analytics Scenario - Data Management Zone",
+            "title": "Cloud-Scale Analytics Scenario - YKBx Data Management Zone",
             "steps": [
                 {
                     "name": "basics",
