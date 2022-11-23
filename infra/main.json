@@ -1944,7 +1944,7 @@
             },
             "serviceSubnet": {
               "type": "string",
-              "value": "[reference(resourceId('Microsoft.Network/virtualNetworks', format('{0}-vnet', parameters('prefix')))).subnets[1].id]"
+              "value": "[reference(resourceId('Microsoft.Network/virtualNetworks', format('{0}-vnet', parameters('prefix')))).subnets[0].id]"
             },
             "firewallPrivateIp": {
               "type": "string",
